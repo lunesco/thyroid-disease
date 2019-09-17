@@ -1,0 +1,434 @@
+
+
+SVM:
+Best params: {'model__C': 500, 'model__decision_function_shape': 'ovo'}
+Best score: 0.96
+Worst score: 0.9089
+Score on the test data: 0.9583
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.03	CV:   5, time: 2.8431
+              precision    recall  f1-score   support
+
+hyperthyroid       0.58      0.70      0.64        10
+ hypothyroid       0.90      0.73      0.80        59
+    negative       0.97      0.98      0.98       627
+
+    accuracy                           0.96       696
+   macro avg       0.82      0.80      0.81       696
+weighted avg       0.96      0.96      0.96       696
+
+
+SVM:
+Best params: {'model__C': 500, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'scale', 'model__shrinking': True}
+Best score: 0.96
+Worst score: 0.2296
+Score on the test data: 0.9583
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.03	CV:   5, time: 154.6
+              precision    recall  f1-score   support
+
+hyperthyroid       0.58      0.70      0.64        10
+ hypothyroid       0.90      0.73      0.80        59
+    negative       0.97      0.98      0.98       627
+
+    accuracy                           0.96       696
+   macro avg       0.82      0.80      0.81       696
+weighted avg       0.96      0.96      0.96       696
+
+
+SVM:
+Best params: {'model__C': 500, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'scale', 'model__shrinking': True}
+Best score: 0.9596
+Worst score: 0.1154
+Score on the test data: 0.967
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.03	CV:   5, time: 127.26
+              precision    recall  f1-score   support
+
+hyperthyroid       0.64      0.70      0.67        10
+ hypothyroid       0.90      0.78      0.84        59
+    negative       0.98      0.99      0.98       627
+
+    accuracy                           0.97       696
+   macro avg       0.84      0.82      0.83       696
+weighted avg       0.97      0.97      0.97       696
+
+
+SVM:
+Best params: {'model__C': 500, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'scale', 'model__shrinking': True}
+Best score: 0.9539
+Worst score: 0.1229
+Score on the test data: 0.9598
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.03	CV:   5, time: 122.28
+              precision    recall  f1-score   support
+
+hyperthyroid       0.54      0.70      0.61        10
+ hypothyroid       0.87      0.76      0.81        59
+    negative       0.98      0.98      0.98       627
+
+    accuracy                           0.96       696
+   macro avg       0.79      0.82      0.80       696
+weighted avg       0.96      0.96      0.96       696
+
+
+SVM:
+Best params: {'model__C': 500, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'scale', 'model__shrinking': True}
+Best score: 0.9596
+Worst score: 0.1154
+Score on the test data: 0.967
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.03	CV:   5, time: 143.16
+              precision    recall  f1-score   support
+
+hyperthyroid       0.64      0.70      0.67        10
+ hypothyroid       0.90      0.78      0.84        59
+    negative       0.98      0.99      0.98       627
+
+    accuracy                           0.97       696
+   macro avg       0.84      0.82      0.83       696
+weighted avg       0.97      0.97      0.97       696
+
+
+SVM:
+Best params: {'model__C': 500, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'scale', 'model__shrinking': True}
+Best score: 0.9579
+Worst score: 0.1254
+Score on the test data: 0.9684
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.03	CV:   5, time: 134.13
+              precision    recall  f1-score   support
+
+hyperthyroid       0.58      0.70      0.64        10
+ hypothyroid       0.92      0.80      0.85        59
+    negative       0.98      0.99      0.98       627
+
+    accuracy                           0.97       696
+   macro avg       0.83      0.83      0.83       696
+weighted avg       0.97      0.97      0.97       696
+
+
+SVM:
+Best params: {'model__C': 500, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'scale', 'model__shrinking': True}
+Best score: 0.9593
+Worst score: 0.1189
+Score on the test data: 0.9698
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.03	CV:   5, time: 140.73
+              precision    recall  f1-score   support
+
+hyperthyroid       0.78      0.70      0.74        10
+ hypothyroid       0.92      0.80      0.85        59
+    negative       0.98      0.99      0.98       627
+
+    accuracy                           0.97       696
+   macro avg       0.89      0.83      0.86       696
+weighted avg       0.97      0.97      0.97       696
+
+
+SVM:
+Best params: {'model__C': 500, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'scale', 'model__shrinking': True}
+Best score: 0.9593
+Worst score: 0.1189
+Score on the test data: 0.9698
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.03	CV:   5, time: 141.96
+              precision    recall  f1-score   support
+
+hyperthyroid       0.78      0.70      0.74        10
+ hypothyroid       0.92      0.80      0.85        59
+    negative       0.98      0.99      0.98       627
+
+    accuracy                           0.97       696
+   macro avg       0.89      0.83      0.86       696
+weighted avg       0.97      0.97      0.97       696
+
+
+SVM:
+Best params: {'model__C': 500, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'scale', 'model__shrinking': True}
+Best score: 0.9593
+Worst score: 0.1189
+Score on the test data: 0.9698
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.03	CV:   5, time: 145.57
+              precision    recall  f1-score   support
+
+hyperthyroid       0.78      0.70      0.74        10
+ hypothyroid       0.92      0.80      0.85        59
+    negative       0.98      0.99      0.98       627
+
+    accuracy                           0.97       696
+   macro avg       0.89      0.83      0.86       696
+weighted avg       0.97      0.97      0.97       696
+
+
+SVM:
+Best params: {'model__C': 10, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 0.1, 'model__shrinking': True}
+Best score: 0.9671
+Worst score: 0.2579
+Score on the test data: 0.9655
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.03	CV:   5, time: 43.552
+              precision    recall  f1-score   support
+
+hyperthyroid       0.00      0.00      0.00        10
+ hypothyroid       0.85      0.93      0.89        59
+    negative       0.98      0.98      0.98       627
+
+    accuracy                           0.97       696
+   macro avg       0.61      0.64      0.62       696
+weighted avg       0.95      0.97      0.96       696
+
+
+SVM:
+Best params: {'model__C': 500, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'scale', 'model__shrinking': True}
+Best score: 0.9589
+Worst score: 0.1218
+Score on the test data: 0.9698
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.05	CV:   5, time: 132.12
+              precision    recall  f1-score   support
+
+hyperthyroid       0.78      0.70      0.74        10
+ hypothyroid       0.92      0.80      0.85        59
+    negative       0.98      0.99      0.98       627
+
+    accuracy                           0.97       696
+   macro avg       0.89      0.83      0.86       696
+weighted avg       0.97      0.97      0.97       696
+
+
+SVM:
+Best params: {'model__C': 500, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'scale', 'model__shrinking': True}
+Best score: 0.9593
+Worst score: 0.1189
+Score on the test data: 0.9698
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.02	CV:   5, time: 126.72
+              precision    recall  f1-score   support
+
+hyperthyroid       0.78      0.70      0.74        10
+ hypothyroid       0.92      0.80      0.85        59
+    negative       0.98      0.99      0.98       627
+
+    accuracy                           0.97       696
+   macro avg       0.89      0.83      0.86       696
+weighted avg       0.97      0.97      0.97       696
+
+
+SVM:
+Best params: {'model__C': 500, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'scale', 'model__shrinking': True}
+Best score: 0.9593
+Worst score: 0.1189
+Score on the test data: 0.9698
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.01	CV:   5, time: 123.12
+              precision    recall  f1-score   support
+
+hyperthyroid       0.78      0.70      0.74        10
+ hypothyroid       0.92      0.80      0.85        59
+    negative       0.98      0.99      0.98       627
+
+    accuracy                           0.97       696
+   macro avg       0.89      0.83      0.86       696
+weighted avg       0.97      0.97      0.97       696
+
+
+SVM:
+Best params: {'model__C': 10, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 0.1, 'model__shrinking': True}
+Best score: 0.9661
+Worst score: 0.2882
+Score on the test data: 0.977
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.01	CV:   5, time: 45.461
+              precision    recall  f1-score   support
+
+hyperthyroid       0.73      0.80      0.76        10
+ hypothyroid       0.98      0.83      0.90        59
+    negative       0.98      0.99      0.99       627
+
+    accuracy                           0.98       696
+   macro avg       0.90      0.87      0.88       696
+weighted avg       0.98      0.98      0.98       696
+
+
+SVM:
+Best params: {'model__C': 100, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'auto', 'model__shrinking': True}
+Best score: 0.9711
+Worst score: 0.7232
+Score on the test data: 0.9799
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.02	CV:   5, time: 36.507
+              precision    recall  f1-score   support
+
+hyperthyroid       0.89      0.80      0.84        10
+ hypothyroid       0.96      0.85      0.90        59
+    negative       0.98      1.00      0.99       627
+
+    accuracy                           0.98       696
+   macro avg       0.94      0.88      0.91       696
+weighted avg       0.98      0.98      0.98       696
+
+
+SVM:
+Best params: {'model__C': 100, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'auto', 'model__shrinking': True}
+Best score: 0.9711
+Worst score: 0.7232
+Score on the test data: 0.9799
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.01	CV:   5, time: 34.882
+              precision    recall  f1-score   support
+
+hyperthyroid       0.89      0.80      0.84        10
+ hypothyroid       0.96      0.85      0.90        59
+    negative       0.98      1.00      0.99       627
+
+    accuracy                           0.98       696
+   macro avg       0.94      0.88      0.91       696
+weighted avg       0.98      0.98      0.98       696
+
+
+
+SVM:
+Best params: {'model__C': 100, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'auto', 'model__shrinking': True}
+Best score: 0.9711
+Worst score: 0.7232
+Score on the test data: 0.9799
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.01	CV:   5, time: 47.259
+              precision    recall  f1-score   support
+
+hyperthyroid       0.89      0.80      0.84        10
+ hypothyroid       0.96      0.85      0.90        59
+    negative       0.98      1.00      0.99       627
+
+    accuracy                           0.98       696
+   macro avg       0.94      0.88      0.91       696
+weighted avg       0.98      0.98      0.98       696
+
+
+SVM:
+Best params: {'model__C': 70, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'auto', 'model__shrinking': True}
+Best score: 0.9736
+Worst score: 0.7232
+Score on the test data: 0.977
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.01	CV:   5, time: 44.255
+              precision    recall  f1-score   support
+
+hyperthyroid       0.89      0.80      0.84        10
+ hypothyroid       0.94      0.83      0.88        59
+    negative       0.98      0.99      0.99       627
+
+    accuracy                           0.98       696
+   macro avg       0.94      0.87      0.90       696
+weighted avg       0.98      0.98      0.98       696
+
+
+
+SVM:
+Best params: {'model__C': 100, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'auto', 'model__shrinking': True}
+Best score: 0.9711
+Worst score: 0.7232
+Score on the test data: 0.9799
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.01	CV:   5, time: 40.641
+              precision    recall  f1-score   support
+
+hyperthyroid       0.89      0.80      0.84        10
+ hypothyroid       0.96      0.85      0.90        59
+    negative       0.98      1.00      0.99       627
+
+    accuracy                           0.98       696
+   macro avg       0.94      0.88      0.91       696
+weighted avg       0.98      0.98      0.98       696
+
+
+SVM:
+Best params: {'model__C': 90, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'auto', 'model__shrinking': True}
+Best score: 0.9714
+Worst score: 0.7232
+Score on the test data: 0.9784
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.01	CV:   5, time: 47.042
+              precision    recall  f1-score   support
+
+hyperthyroid       0.89      0.80      0.84        10
+ hypothyroid       0.96      0.83      0.89        59
+    negative       0.98      1.00      0.99       627
+
+    accuracy                           0.98       696
+   macro avg       0.94      0.88      0.91       696
+weighted avg       0.98      0.98      0.98       696
+
+
+SVM:
+Best params: {'model__C': 110, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'auto', 'model__shrinking': True}
+Best score: 0.9707
+Worst score: 0.7232
+Score on the test data: 0.9784
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.01	CV:   5, time: 35.913
+              precision    recall  f1-score   support
+
+hyperthyroid       0.80      0.80      0.80        10
+ hypothyroid       0.96      0.85      0.90        59
+    negative       0.98      0.99      0.99       627
+
+    accuracy                           0.98       696
+   macro avg       0.91      0.88      0.90       696
+weighted avg       0.98      0.98      0.98       696
+
+
+SVM:
+Best params: {'model__C': 99, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'auto', 'model__shrinking': True}
+Best score: 0.9711
+Worst score: 0.7232
+Score on the test data: 0.9799
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.01	CV:   5, time: 35.242
+              precision    recall  f1-score   support
+
+hyperthyroid       0.89      0.80      0.84        10
+ hypothyroid       0.96      0.85      0.90        59
+    negative       0.98      1.00      0.99       627
+
+    accuracy                           0.98       696
+   macro avg       0.94      0.88      0.91       696
+weighted avg       0.98      0.98      0.98       696
+
+
+SVM:
+Best params: {'model__C': 95, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'auto', 'model__shrinking': True}
+Best score: 0.9714
+Worst score: 0.9221
+Score on the test data: 0.9799
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.01	CV:   5, time: 49.941
+              precision    recall  f1-score   support
+
+hyperthyroid       0.89      0.80      0.84        10
+ hypothyroid       0.96      0.85      0.90        59
+    negative       0.98      1.00      0.99       627
+
+    accuracy                           0.98       696
+   macro avg       0.94      0.88      0.91       696
+weighted avg       0.98      0.98      0.98       696
+
+
+SVM:
+Best params: {'model__C': 100, 'model__class_weight': None, 'model__decision_function_shape': 'ovo', 'model__gamma': 'auto', 'model__shrinking': True, 'model__tol': 1e-05}
+Best score: 0.9711
+Worst score: 0.7232
+Score on the test data: 0.9799
+Fitting: 
+N_JOBS:  -1, THRESHOLD: 0.01	CV:   5, time: 88.652
+              precision    recall  f1-score   support
+
+hyperthyroid       0.89      0.80      0.84        10
+ hypothyroid       0.96      0.85      0.90        59
+    negative       0.98      1.00      0.99       627
+
+    accuracy                           0.98       696
+   macro avg       0.94      0.88      0.91       696
+weighted avg       0.98      0.98      0.98       696
